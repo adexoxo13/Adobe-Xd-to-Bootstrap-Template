@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans:wght@400;700&display=swap");
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px !important;
+	margin: 0;
+	padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-top: none;
+}
+.logo {
+	background: #4747d7;
+	width: 37px;
+	height: 37px;
+	text-align: center;
+	color: #fff;
+	font-family: "Merriweather", serif;
+}
+.navbar ul li a {
+	font-weight: bold;
+}
+.registerBtn a {
+	background: #4747d7;
+	color: #fff !important;
+	border-radius: 25px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+/* JUMBOTRON */
+.jumbotron {
+	background: url("./istockphoto-1295115391-170667a.jpg");
+	/* background-size: cover; */
+	background-size: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+.jumbotron h1 {
+	font-family: "Merriweather", serif;
+	font-size: 42px;
+	color: rgb(38, 8, 97);
+}
+.jumbotron p {
+	font-size: 14px;
+	color: rgb(38, 8, 97);
+}
+.btn-gradient {
+	background: rgb(350, 89, 95);
+	background: linear-gradient(90deg, green 0%, yellow 50%, red 100%);
+	border: none;
+	color: #111;
+	font-size: 18px;
+}
+.btn-gradient:hover {
+	background: rgb(350, 89, 95);
+	background: linear-gradient(90deg, green 0%, yellow 50%, red 100%);
+	color: #111;
+}
+/* card */
+.card {
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+	border: none;
+}
+.card > .card-body > h6 > span {
+	font-weight: normal;
+	padding: 5px 10px 5px 10px;
+	border-radius: 0px;
+}
+.card > .card-body > h5 {
+	font-size: 18px;
+	color: #111111;
+}
+/* SIDEBAR */
+.widget div {
+	margin-bottom: 20px;
+}
+.categories {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+.categories h4 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #111111;
+	border-bottom: 2px solid #111;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+.categories ul li a {
+	color: #696969;
+}
+/* Footer */
+.footer {
+	background-color: rgb(17, 255, 0);
+	padding: 30px;
+}
+.footer > h4 {
+	color: #111;
+	font-size: bold;
+}
+.footer ul li a {
+	color: black;
+	font-family: "Merriweather";
+	font-size: 14px;
+}
+.footer-text {
+	background: rgb(128, 152, 90);
+	padding: 10px;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 12px;
+}
+.footer-text b {
+	color: rgb(243, 228, 25);
+	font-size: 14px;
+}
